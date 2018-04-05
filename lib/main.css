@@ -1,0 +1,124 @@
+h1{
+  font-size: 10vh;
+}
+
+h2{
+  font-size: 5vh;
+}
+
+h3{
+  font-size: 4vh;
+}
+
+h4{
+  font-size: 3vh;
+}
+
+li{
+  font-size: 3vh;
+  color: white;
+  line-height: 10vh;
+  cursor: pointer;
+}
+
+header{
+  height: 100vh;
+  text-align: center;
+}
+
+button{
+  font-size: 2vh;
+  height: 5vh;
+  width: 20vh;
+  padding: 1vh 1vh 1vh 1vh;
+  border-radius: 3px;
+}
+
+button:hover{
+  background-color: red;
+  cursor: pointer;
+  color: white;
+}
+
+footer{
+  height: 20vh;
+  background-color: blue;
+}
+
+.mainTitle{
+  margin: auto;
+  padding-top: 30vh;
+}
+
+.slogan{
+  margin: 10vh 0 10vh 0;
+}
+
+.signUp{
+  border: 1px solid beige;
+  background-color: white;
+}
+
+.menu{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 10vh;
+  background-color: red;
+  position: fixed;
+  z-index: 30;
+  margin-top: 0;
+}
+
+.logo{
+  width: 50%;
+}
+
+.menuList{
+  display: flex;
+  justify-content: space-around;
+  text-decoration: none;
+  width: 50%;
+}
+
+.student img{
+  height: 30vh;
+  margin-bottom: 3vh;
+}
+
+.people{
+  margin-top: 25vh;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.description{
+  height: 100vh;
+  width: 50%;
+  margin-left: 50%;
+  padding: 20vh 0vh 2vh 25vh;
+  background-color: beige;
+  text-align: left;
+  line-height: 1.5;
+}
+
+.clients{
+  text-align: center;
+  height: 100vh;
+  padding-top: 10vh;
+  background-color: purple;
+  color: white;
+}
+
+.getStarted{
+ text-align: center;
+  padding: 30vh;
+  height: 100vh;
+  background-color: black;
+  color: white;
+}
+
+.getStarted h1{
+  margin-bottom: 5vh;
+}
+

@@ -1,0 +1,104 @@
+
+.profileMenu{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 8vh;
+  background-color: red;
+  z-index: 30;
+  margin-top: 0;
+}
+
+.searchBar{
+  display: flex;
+  justify-content: space-between;
+  height: 6vh;
+}
+
+.logOut{  
+  font-size: 2vh;
+  height: 4vh;
+  vertical-align: text-bottom;
+  width: 20vh;
+  padding: .5vh 1vh 1vh 1vh;
+  border-radius: 3px;
+}
+
+.menuList li{
+  font-size: 2.5vh;
+}
+
+.menuList{
+  padding-left: 30vh;
+}
+
+.mod{
+  text-align: center;
+  margin: auto;
+  background-color: white;
+  height: 6vh;
+  width: 50%;
+}
+
+.modList{
+  display: flex;
+  justify-content: space-around;
+  text-decoration: none;
+  width: 70%;
+}
+
+.modList li{
+  color: #a76666;
+}
+
+main{
+  display: flex;
+  justify-content: space-between;
+  height: 90vh;
+}
+
+input{
+  width: 50%;
+  font-size: 2vh;
+  padding-left: 5vh
+}
+
+li:hover{
+  color: white;
+}
+
+.modList li{
+  line-height: 2 !important;
+}
+
+.lesson{
+  width: 50%;
+  background-color: #fff9f9;
+
+}
+
+.notes{
+  padding: 1vh 3vh 3vh 3vh;
+  width: 50%; 
+  background-color: white;
+  font-size: 2.2vh;
+  overflow: scroll;
+  outerline: none;
+}
+
+.pointer{
+  cursor: pointer;
+}
+
+.pointer:hover{
+  color: red;
+}
+
+.notesMenu{
+  line-height: 1.5;
+  display: flex;
+  justify-content: space-around;
+  height: 5vh;
+  margin-bottom: 2vh;
+  width: 100%;
+}
