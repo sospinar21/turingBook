@@ -1,18 +1,4 @@
-<<<<<<< HEAD
-# dependencies
-/node_modules
 
-# production
-/build
-
-# misc
-.DS_Store
-.env
-APIkey.js
-
-# logs
-*.log
-=======
 # Logs
 logs
 *.log
@@ -72,4 +58,4 @@ typings/
 # dotenv environment variables file
 .env
 
->>>>>>> f98e1cbc1c9bdbb50cdbc7fcef454e3cc87b61f6
+
