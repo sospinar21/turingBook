@@ -4,12 +4,13 @@
   <link rel="stylesheet" type="text/css" href="reset.css">
   <link rel="stylesheet" type="text/css" href="profile.css">
   <link rel="stylesheet" type="text/css" href="main.css">
+  <link href="https://fonts.googleapis.com/css?family=Kirang+Haerang" rel="stylesheet">
   <title>Turing book</title>
 </head>
 <body>
   <section class='profileMenu'>
-    <article class = 'logo'>
-      <img src="">
+    <article class = 'logo'> 
+      Turing E-Book
     </article>
     <ul class = 'menuList'>
       <li> Settings</li>
@@ -21,22 +22,54 @@
   <section class = 'searchBar'>
     <article class='mod'>
       <ul class = 'modList'>
-      <li> Mod 1</li>
-      <li> Mod 2</li> 
-      <li> Mod 3</li> 
-      <li> Mod 4</li> 
+      <div class = 'dropDown'>
+        <li class = 'mod1'> Mod 1</li>
+        <div class='dropDownContent'>
+          <a href="#">Lesson 1</a>
+          <a href="#">Lesson 2</a>
+          <a href="#">Lesson 3</a>
+        </div>
+      </div>
+    
+    <div class = 'dropDown'>
+        <li class = 'mod2'> Mod 2</li>
+        <div class='dropDownContent'>
+          <a href="#">sad</a>
+          <a href="#">Lascesson 2</a>
+          <a href="#">Lesssacon 3</a>
+        </div>
+      </div>
+
+    <div class = 'dropDown'>
+        <li class = 'mod1'> Mod 3</li>
+        <div class='dropDownContent'>
+          <a href="#">Lesson 1</a>
+          <a href="#">Lesson 2</a>
+          <a href="#">Lesson 3</a>
+        </div>
+      </div>
+
+    <div class = 'dropDown'>
+        <li class = 'mod1'> Mod 4</li>
+        <div class='dropDownContent'>
+          <a href="#">Lesson 1</a>
+          <a href="#">Lesson 2</a>
+          <a href="#">Lesson 3</a>
+        </div>
+      </div>
+
     </article>
     <input type="text" name="Search" placeholder="Search">
   </section>
   <main>
     <section class ='lesson'></section>
-    <section class ='notes' contenteditable="true"> 
+    <section class ='notes'> 
       <div class = 'notesMenu'>
         <div class = 'pointer'>Links</div>
         <div class = 'pointer'>Snippets</div>
         <div class = 'pointer'>Keywords</div>
       </div>
-      Write notes here...
+      <div class='notesBox' contenteditable="true">Write your notes....</div>
       <article>
         <div class='link'></div>
         <div class='snippet'></div>
@@ -44,6 +77,6 @@
       </article>
     </section>
   </main>
-
+  <script src="index.js"></script>
 </body>
 </html>
