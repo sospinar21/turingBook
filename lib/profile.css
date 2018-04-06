@@ -11,10 +11,11 @@
 }
 
 .link{
+  padding: 5vh;
   position: absolute;
   width: 50%;
   height: 80vh;
-  background-color: black;
+  background-color: grey;
   display: none;
   margin-top: -79vh;
 }
@@ -23,7 +24,14 @@
 
 }
 
+.linkInput{
+  width: 100%;
+  font-family: 'Kirang Haerang', cursive;
+  font-size: 2vh;
+}
+
 .snippet{
+  padding: 5vh;
   position: absolute;
   width: 50%;
   height: 80vh;
@@ -33,6 +41,7 @@
 }
 
 .keyword{
+  padding: 5vh;
   position: absolute;
   width: 50%;
   height: 80vh;
