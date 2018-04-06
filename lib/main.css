@@ -119,6 +119,10 @@ footer{
     color: #41424c;
 }
 
+.link button:focus, .linkInput:focus {
+  outline: none;
+}
+
 .signUp:hover {
 background-color: #333;
 cursor: pointer;

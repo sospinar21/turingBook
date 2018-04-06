@@ -29,6 +29,12 @@
   line-height: 5vh;
   color: #41424c;
   font-family: 'Exo', sans-serif;
+  list-style-type: square;
+  list-style-position: inside;
+}
+
+.links li.removeBullet {
+  list-style: none;
 }
 
 .linkInput {
@@ -253,5 +259,5 @@ li:hover{
   height: 6vh;
   width: 100%;
   border-bottom: 1px solid #ccc;
-  padding-top: 1vh;
+  padding-top: 1.3vh;
 }
