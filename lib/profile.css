@@ -82,7 +82,7 @@
 
 .menuList{
   padding-left: 30vh;
-  width: 60% !important;
+  width: 45% !important;
 }
 
 .mod{
@@ -100,6 +100,10 @@
   margin:0 auto;
   padding: 15px;
   overflow: scroll;
+}
+
+.notesBox:focus{
+    outline: none;
 }
 
 .modList{
@@ -137,12 +141,23 @@ li:hover{
 .dropDown {
   position: relative;
   display: inline-block;
-  width: 24%;
+  width: 24.35%;
   border-right: 1px solid #ccc;
 }
 
 .dropDown.last {
   border-right: 0;
+}
+
+.modList .dropDown.active li {
+  color: #fff;
+}
+
+
+.dropDown.active {
+  color: #9798a8;
+    background: #333;
+    box-shadow: inset 0px 1px 4px #222;
 }
 
 .dropDownContent{
