@@ -15,19 +15,38 @@
   position: absolute;
   width: 50%;
   height: 80vh;
-  background-color: grey;
+  background-color: white;
   display: none;
   margin-top: -79vh;
 }
 
 .links{
-
+  margin-top: 30px;
 }
 
-.linkInput{
+.links li{
+  margin-left: 0px;
+  line-height: 5vh;
+  color: #41424c;
+  font-family: 'Exo', sans-serif;
+  list-style-type: square;
+  list-style-position: inside;
+}
+
+.linkInput, .in {
   width: 100%;
-  font-family: 'Kirang Haerang', cursive;
+  font-family: 'Work Sans', sans-serif;
   font-size: 2vh;
+  height: 6vh;
+  background: #41424c;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+}
+
+.li::placeholder, .linkInput::placeholder {
+  color: #fff;
 }
 
 .snippet{
@@ -35,9 +54,9 @@
   position: absolute;
   width: 50%;
   height: 80vh;
-  background-color: pink;
   display: none;
   margin-top: -79vh;
+  background-color: white;
 }
 
 .keyword{
@@ -45,7 +64,7 @@
   position: absolute;
   width: 50%;
   height: 80vh;
-  background-color: gray;
+  background-color: white;
   display: none;
   margin-top: -79vh;
 }
@@ -57,7 +76,7 @@
 }
 
 .logo{
-  font-family: 'Kirang Haerang', cursive;
+  font-family: 'Work Sans', sans-serif;
   color: white;
   font-size: 5vh;
   padding-left: 25px;
@@ -165,14 +184,15 @@ li:hover{
 
 .dropDown.active {
   color: #9798a8;
-    background: #333;
-    box-shadow: inset 0px 1px 4px #222;
+  background: #333;
+  box-shadow: inset 0px 1px 4px #222;
 }
 
 .dropDownContent{
   display: none;
   position: absolute;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 9;
 }
 
 .dropDown:hover .dropDownContent {
@@ -222,6 +242,12 @@ li:hover{
 .pointer{
   cursor: pointer;
   color: #3c4040;
+}
+
+.saveSnippet, .saveKey{
+  font-size: 1.9vh;
+  color: #41424c;
+  border: 1px solid;
 }
 
 .pointer:hover{
