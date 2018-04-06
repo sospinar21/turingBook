@@ -33,6 +33,11 @@
   list-style-position: inside;
 }
 
+.removeBullet {
+  list-style: none;
+  list-style-type: none !important;
+}
+
 .linkInput, .in {
   width: 100%;
   font-family: 'Work Sans', sans-serif;
@@ -248,6 +253,14 @@ li:hover{
   font-size: 1.9vh;
   color: #41424c;
   border: 1px solid;
+}
+
+.snippets li{
+  color: black;
+}
+
+.keywords li{
+  color: black;
 }
 
 .pointer:hover{
