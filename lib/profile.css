@@ -73,7 +73,7 @@
 .modList li{
   color: #3c4040;
   line-height: 3 !important;
-  width: 15vh;
+  nowidth: 15vh;
 }
 
 main{
