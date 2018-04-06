@@ -5,8 +5,12 @@ h1 {
   text-transform: uppercase;
 }
 
-h2{
-  font-size: 5vh;
+h2 {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 6vh;
+  color: #fff;
+  margin-top: 30px;
+  text-transform: uppercase;
 }
 
 h3 {
@@ -15,21 +19,31 @@ h3 {
   font-family: 'Work Sans', sans-serif;
 }
 
-h4{
+h4 { 
   font-size: 3vh;
+  color:#fff;
+  font-family: 'Work Sans', sans-serif;
 }
 
+h5 {
+  font-size: 4vh;
+  color: #fff;
+  margin-bottom: 30px;
+  margin-top: 15px;
+  font-family: 'Work Sans', sans-serif;
+}
 li {
   font-size: 2.2vh;
   color: white;
-  line-height: 12vh;
+  line-height: 14vh;
+  padding:0px 10px;
   text-transform: uppercase;
   cursor: pointer;
   font-family: 'Work Sans', sans-serif;
 }
 
 header {
-  height: 100vh;
+  height: 60vw;
   text-align: center;
   background-image: url(./images/header-bg.gif);
   background-size: cover;
@@ -52,13 +66,21 @@ button {
   border-radius: 3px;
   color: #3C4040;
   font-weight: bold;
+  background: transparent;
   text-transform: uppercase;
+  color: #fff;
 }
 
 button:hover{
-  background-color: #DE5B49;
+  background-color: #41424c;
   cursor: pointer;
   color: white;
+}
+
+.getStarted button {
+    font-size: 1.7vh;
+    height: 6vh;
+    width: 25vh;
 }
 
 footer{
@@ -75,24 +97,32 @@ footer{
   margin: 6vh 0 13vh 0;
 }
 
-.signUp{
-  border: 1px solid beige;
-  background-color: white;
+.signUp {
+  border: 1px solid #fff;
+  color: #fff;
+  background-color: transparent;
+  font-size: 1.7vh;
+}
+
+.signUp:hover {
+background-color: #333;
+cursor: pointer;
 }
 
 .menu{
   display: flex;
   justify-content: space-between;
   width: 100%;
-  height: 12vh;
-  background-color: #DE5B49;
+  height: 14vh;
+  background-color: #41424c;
   position: fixed;
   z-index: 30;
   margin-top: 0;
 }
 
-.logo{
-  width: 50%;
+.logo {
+    width: 50%;
+    padding-top: 6px;
 }
 
 .menuList{
@@ -102,41 +132,72 @@ footer{
   width: 40%;
 }
 
-.student img{
-  height: 30vh;
+.student img {
+  height: 33vh;
+  padding: 5px;
   margin-bottom: 3vh;
+  border-radius: 10px;
+  background: transparent;
 }
 
 .people{
-  margin-top: 25vh;
+  margin-top: 15vh;
   display: flex;
   justify-content: space-evenly;
 }
 
-.description{
-  height: 100vh;
+.description {
+  height: 50vw;
+  float: left;
   width: 50%;
-  margin-left: 50%;
   padding: 20vh 0vh 2vh 25vh;
-  background-color: beige;
+  background-color: #fff;
   text-align: left;
   line-height: 1.5;
+  display: block;
+  position: relative;
 }
 
-.clients{
+.description.img {
+  background-image: url(./images/home-desk.jpg);
+  background-size: cover;
+}
+
+.description li {
+  font-size: 4vh;
+  color: #3C4040;
+  line-height: 6vh;
+  margin-bottom: 37px;
+  font-family: 'Work Sans', sans-serif;
+  list-style-image: url(./images/checkmark.jpg);
+}
+
+.clients {
   text-align: center;
-  height: 100vh;
+  height: 45vw;
+  background: #ef9340;
+  position: relative;
+  width: 100vw;
   padding-top: 10vh;
-  background-color: purple;
+  background-repeat: repeat;
   color: white;
+  display: inline-block;
 }
 
-.getStarted{
- text-align: center;
-  padding: 30vh;
-  height: 100vh;
-  background-color: black;
+hr {
+  margin-bottom: -1px;
+  margin-top: 0px;
+}
+
+.getStarted {
+  text-align: center;
+  padding: 25px;
+  position: relative;
+  height: 14vw;
+  background-color: #41424c;
   color: white;
+  display: inline-block;
+  width: 100vw;
 }
 
 .getStarted h1{
