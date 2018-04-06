@@ -144,10 +144,9 @@ cursor: pointer;
 }
 
 .student img {
+  border: 6px solid #905b2c;
   height: 33vh;
-  padding: 5px;
   margin-bottom: 3vh;
-  border-radius: 10px;
   background: transparent;
 }
 
