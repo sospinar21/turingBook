@@ -29,21 +29,23 @@
   line-height: 5vh;
   color: #41424c;
   font-family: 'Exo', sans-serif;
+  list-style-type: square;
+  list-style-position: inside;
 }
 
-.linkInput {
-    width: 100%;
-    font-family: 'Work Sans', sans-serif;
-    font-size: 2vh;
-    height: 6vh;
-    background: #41424c;
-    margin-bottom: 20px;
-    border: none;
-    border-radius: 3px;
-    color: #fff;
+.linkInput, .in {
+  width: 100%;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 2vh;
+  height: 6vh;
+  background: #41424c;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 3px;
+  color: #fff;
 }
 
-.linkInput::placeholder {
+.li::placeholder, .linkInput::placeholder {
   color: #fff;
 }
 
@@ -52,9 +54,9 @@
   position: absolute;
   width: 50%;
   height: 80vh;
-  background-color: pink;
   display: none;
   margin-top: -79vh;
+  background-color: white;
 }
 
 .keyword{
@@ -62,7 +64,7 @@
   position: absolute;
   width: 50%;
   height: 80vh;
-  background-color: gray;
+  background-color: white;
   display: none;
   margin-top: -79vh;
 }
@@ -182,8 +184,8 @@ li:hover{
 
 .dropDown.active {
   color: #9798a8;
-    background: #333;
-    box-shadow: inset 0px 1px 4px #222;
+  background: #333;
+  box-shadow: inset 0px 1px 4px #222;
 }
 
 .dropDownContent{
@@ -240,6 +242,12 @@ li:hover{
 .pointer{
   cursor: pointer;
   color: #3c4040;
+}
+
+.saveSnippet, .saveKey{
+  font-size: 1.9vh;
+  color: #41424c;
+  border: 1px solid;
 }
 
 .pointer:hover{
