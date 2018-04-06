@@ -26,17 +26,27 @@
 }
 
 .logOut{  
-  font-size: 2vh;
-  height: 4vh;
-  vertical-align: text-bottom;
-  width: 20vh;
-  padding: .5vh 1vh 1vh 1vh;
-  border-radius: 3px;
+    font-size: 1.7vh;
+    height: 5vh;
+    width: 20vh;
+    padding: 1vh 1vh 1vh 1vh;
+    border-radius: 3px;
+    color: #3C4040;
+    font-weight: bold;
+    background: transparent;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.logOut:hover{
+  background-color: #333;
+  cursor: pointer;
+  color: white;
 }
 
 .menuList li{
-  font-size: 2.5vh;
-  line-height: 15vh;
+  font-size: 2.2vh;
+  line-height: 13vh;
   font-family: 'Work Sans', sans-serif;
 }
 
@@ -54,26 +64,28 @@
 }
 
 .notesBox{
-  color: white;
-  width: 95%;
+  color: #41424c;
+  width: 100%;
   height: 80vh;
-  background-color: #3c4040;
   margin:0 auto;
   padding: 15px;
   overflow: scroll;
 }
 
 .modList{
-  display: flex;
   justify-content: space-around;
   text-decoration: none;
   width: 100%;
+  background-color: #eee
 }
 
-.modList li{
-  color: #3c4040;
-  line-height: 3 !important;
-  nowidth: 15vh;
+.modList li {
+    color: #41424c;
+    line-height: 3 !important;
+    nowidth: 15vh;
+    font-size: 2vh;
+    font-family: helvetica;
+    font-weight: 500;
 }
 
 main{
@@ -92,9 +104,15 @@ li:hover{
   color: grey;
 }
 
-.dropDown{
-  position: relative;
-  display: inline-block;
+.dropDown {
+    position: relative;
+    display: inline-block;
+    width: 24%;
+    border-right: 1px solid #ccc;
+}
+
+.dropDown.last {
+  border-right: 0;
 }
 
 .dropDownContent{
@@ -105,8 +123,9 @@ li:hover{
 
 .dropDown:hover .dropDownContent {
   display: block;
-  background-color: #de5b49;
+  background-color: #ef9340;
   color: white;
+  width: 100%;
 }
 
 .dropDown:hover .mod1 {
@@ -133,7 +152,6 @@ li:hover{
 }
 
 .notes{
-  padding: 1vh 3vh 3vh 3vh;
   width: 50%; 
   background-color: white;
   font-size: 2.2vh;
@@ -147,13 +165,15 @@ li:hover{
 }
 
 .pointer:hover{
-  color: red;
+  color: #ef9340;
 }
 
-.notesMenu{
+.notesMenu {
   line-height: 1.5;
   display: flex;
   justify-content: space-around;
-  height: 5vh;
+  height: 6vh;
   width: 100%;
+  border-bottom: 1px solid #ccc;
+  padding-top: 1vh;
 }
