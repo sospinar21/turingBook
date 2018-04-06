@@ -65,6 +65,7 @@ button {
   padding: 1vh 1vh 1vh 1vh;
   border-radius: 3px;
   color: #3C4040;
+  font-family: 'Work Sans', sans-serif;
   font-weight: bold;
   background: transparent;
   text-transform: uppercase;
@@ -81,6 +82,16 @@ button:hover{
     font-size: 1.7vh;
     height: 6vh;
     width: 25vh;
+}
+
+.link button {
+    font-size: 1.9vh;
+    color: #41424c;
+    border: 1px solid;
+}
+
+.link button:hover {
+  color: #fff;
 }
 
 footer{
@@ -102,6 +113,10 @@ footer{
   color: #fff;
   background-color: transparent;
   font-size: 1.7vh;
+}
+
+.links h5 {
+    color: #41424c;
 }
 
 .signUp:hover {
