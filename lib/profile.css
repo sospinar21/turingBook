@@ -1,14 +1,44 @@
 
 .profileMenu{
-  
-    z-index: 30;
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    height: 14vh;
-    background-color: #41424c;
-    z-index: 30;
-    margin-top: 0;
+  z-index: 30;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 14vh;
+  background-color: #41424c;
+  z-index: 30;
+  margin-top: 0;
+}
+
+.link{
+  position: absolute;
+  width: 50%;
+  height: 80vh;
+  background-color: black;
+  display: none;
+  margin-top: -79vh;
+}
+
+.links{
+
+}
+
+.snippet{
+  position: absolute;
+  width: 50%;
+  height: 80vh;
+  background-color: pink;
+  display: none;
+  margin-top: -79vh;
+}
+
+.keyword{
+  position: absolute;
+  width: 50%;
+  height: 80vh;
+  background-color: gray;
+  display: none;
+  margin-top: -79vh;
 }
 
 .searchBar{
@@ -26,16 +56,16 @@
 }
 
 .logOut{  
-    font-size: 1.7vh;
-    height: 5vh;
-    width: 20vh;
-    padding: 1vh 1vh 1vh 1vh;
-    border-radius: 3px;
-    color: #3C4040;
-    font-weight: bold;
-    background: transparent;
-    text-transform: uppercase;
-    color: #fff;
+  font-size: 1.7vh;
+  height: 5vh;
+  width: 20vh;
+  padding: 1vh 1vh 1vh 1vh;
+  border-radius: 3px;
+  color: #3C4040;
+  font-weight: bold;
+  background: transparent;
+  text-transform: uppercase;
+  color: #fff;
 }
 
 .logOut:hover{
@@ -84,12 +114,12 @@
 }
 
 .modList li {
-    color: #41424c;
-    line-height: 3 !important;
-    nowidth: 15vh;
-    font-size: 2vh;
-    font-family: helvetica;
-    font-weight: 500;
+  color: #41424c;
+  line-height: 3 !important;
+  nowidth: 15vh;
+  font-size: 2vh;
+  font-family: helvetica;
+  font-weight: 500;
 }
 
 main{
@@ -109,10 +139,10 @@ li:hover{
 }
 
 .dropDown {
-    position: relative;
-    display: inline-block;
-    width: 24.35%;
-    border-right: 1px solid #ccc;
+  position: relative;
+  display: inline-block;
+  width: 24.35%;
+  border-right: 1px solid #ccc;
 }
 
 .dropDown.last {
