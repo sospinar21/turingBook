@@ -139,6 +139,12 @@ li:hover{
   display: block;
 }
 
+.placeholder{
+  color: white;
+  margin: 5vh 0vh 0vh 5vh;
+  position: absolute;
+}
+
 .dropDownContent a:hover {
   background-color: #41424c;
   color: white;
