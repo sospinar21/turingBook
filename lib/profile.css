@@ -33,9 +33,21 @@
   list-style-position: inside;
 }
 
+.in::placeholder{
+  color: white;
+}
+
 .removeBullet {
   list-style: none;
   list-style-type: none !important;
+}
+
+.snippets h5{
+   color: #41424c;
+}
+
+.keyword h5{
+   color: #41424c;
 }
 
 .linkInput, .in {
@@ -256,11 +268,21 @@ li:hover{
 }
 
 .snippets li{
-  color: black;
+  margin-left: 0px;
+  line-height: 5vh;
+  color: #41424c;
+  font-family: 'Exo', sans-serif;
+  list-style-type: square;
+  list-style-position: inside;
 }
 
 .keywords li{
-  color: black;
+  margin-left: 0px;
+  line-height: 5vh;
+  color: #41424c;
+  font-family: 'Exo', sans-serif;
+  list-style-type: square;
+  list-style-position: inside;
 }
 
 .pointer:hover{
